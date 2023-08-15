@@ -1,0 +1,33 @@
+body{
+    color:black;
+   background-color: powderblue;
+}
+.image1{
+    width: 300px;
+    height: 300px;
+    border : 5px solid blueviolet;
+    padding: 50px 100px;
+    margin: 20px;
+    background-image: url(/images/flower.jpeg);
+    background-repeat: no-repeat;
+}
+.image2{
+    width: 500px;
+    height: 500px;
+    border: 5px solid palevioletred;
+    padding: 100px 200px;
+    margin: 20px;
+    background-image: url(/images/realf.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.image3{
+    width: 200px;
+    height: 200px;
+    border: 5px solid plum;
+    padding: 50px;
+    margin: 50px;
+    background-image: url(/images/flower.jpeg);
+    background-size: cover;
+}
